@@ -17,3 +17,4 @@ series_idades = pd.Series(idades)
 series_idades.iloc[0]
 # alterando o indíce padrão para a lista indexs
 series_idades = pd.Series(idades, index=indexs)
+#o .loc consulta o indíce: series_idades.loc[0] == series_idades[0]
