@@ -8,7 +8,7 @@ idades = [
 ]
 
 series_idades = pd.Series(idades)
-series_idades
+
 # %%
 # iloc puxa a posição na série ao invés de puxar o indice
 series_idades.iloc[0]
